@@ -22,7 +22,7 @@ public class PrintArgComplex {
 		//print all fields
 		BTraceUtils.printFields(user);
 		//print one field
-		Field filed2 = BTraceUtils.field("com.imooc.monitor_tuning.chapter2.User", "name");
+		Field filed2 = BTraceUtils.field("com.gandoph.monitor_tuning.memory.User", "name");
 		BTraceUtils.println(BTraceUtils.get(filed2, user));
 		BTraceUtils.println(pcn+","+pmn);
 		BTraceUtils.println();
